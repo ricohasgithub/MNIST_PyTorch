@@ -50,6 +50,3 @@ class image_contour_set (Dataset):
             sample = self.transform(sample)
         
         return sample
-        
-class contour_net (nn.Modules):
-        
